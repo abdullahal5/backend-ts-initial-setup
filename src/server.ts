@@ -5,7 +5,7 @@ import app from "./app";
 async function main() {
   try {
     await mongoose.connect(config.databse_url as string, {
-      dbName: "mupicomputerclub",
+      dbName: "Job-Finder-Project",
     });
 
     app.listen(config.port, () => {

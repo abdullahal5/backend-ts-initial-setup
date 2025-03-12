@@ -8,3 +8,11 @@ declare global {
     }
   }
 }
+
+export const User_Role = {
+  admin: "admin",
+  jobSeeker: "jobSeeker",
+  recruiter: "recruiter",
+} as const;
+
+export type TUserRole = keyof typeof User_Role;

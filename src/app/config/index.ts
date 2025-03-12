@@ -13,4 +13,8 @@ export default {
   Refresh_Token_Expires: process.env.Refresh_Token_Expires,
   Bcrypt_Salt_Round: process.env.Bcrypt_Salt_Round,
   Reset_pass_ui_link: process.env.Reset_pass_ui_link,
+  SMTP_USER: process.env.SMTP_USER,
+  SMTP_PASS: process.env.SMTP_PASS,
+  SMTP_HOST: process.env.SMTP_HOST,
+  SMTP_PORT: process.env.SMTP_PORT,
 };
